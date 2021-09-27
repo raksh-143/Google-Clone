@@ -1,0 +1,85 @@
+body {
+  color: black;
+}
+
+.navigation {
+  float: right;
+}
+
+.navigation a, .navigation input {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.navigation a {
+  color: black;
+}
+
+.navigation input {
+  outline: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.logo-searchBar {
+  margin: 140px 140px 20px 150px;
+}
+
+.logo-searchBar img {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.logo-searchBar input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 75px;
+  outline: none;
+}
+
+.buttons-lang button {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.buttons-lang a {
+  color: blue;
+}
+
+.float-end {
+  float: right;
+}
+
+.float-start {
+  float: left;
+}
+
+.footer {
+  overflow: hidden;
+  color: gray;
+  background-color: #f2f2f2;
+  margin: 90px 0px 0px 0px;
+  padding: 10px 20px 0px 20px;
+}
+
+.footer a {
+  cursor: pointer;
+  color: gray;
+  margin: 10px;
+}
+
+.footer .push-down {
+  margin-bottom: 0px;
+}
+
+.footer .push-up {
+  margin-top: -10px;
+}
+
+.footer hr {
+  border: 1px solid #EDE4E8;
+}
+/*# sourceMappingURL=main.css.map */
