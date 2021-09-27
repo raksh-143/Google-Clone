@@ -5,4 +5,7 @@ $(document).ready(function(){
     $("img").click(function(){
         window.open('https://www.google.co.in/','_self');
     })
+    $("#lucky").click(function(){
+        window.open('https://www.google.com/doodles','_self');
+    })
 })

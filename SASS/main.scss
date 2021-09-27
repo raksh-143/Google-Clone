@@ -1,8 +1,10 @@
+$color: #f2f2f2;
 body{
     color: black;
 }
 .navigation{
     float: right;
+    font-size: 15px;
     a, input{
         margin: 10px;
         vertical-align: middle;
@@ -12,7 +14,12 @@ body{
     }
     input{
         outline: none;
-        padding: 10px 20px 10px 20px;
+        padding: 10px 30px 10px 30px;
+    }
+    .glyphicon-th{
+        background-color: white;
+        border: none;
+        font-size: 20px;
     }
 }
 .logo-searchBar{
@@ -24,8 +31,8 @@ body{
     input{
         width: 600px;
         height: 40px;
-        border: 1px solid gray;
         border-radius: 75px;
+        border: 1px solid gray;
         outline: none;
     }
 }
@@ -40,6 +47,9 @@ body{
     a{
         color: blue;
     }
+    p{
+        margin-bottom: 200px;
+    }
 }
 .float-end{
     float: right;
@@ -48,9 +58,10 @@ body{
     float: left;
 }
 .footer{
+    font-size: 16px;
     overflow: hidden;
     color: gray;
-    background-color: #f2f2f2;
+    background-color: $color;
     margin: 90px 0px 0px 0px;
     padding: 10px 20px 0px 20px;
     a{
@@ -58,10 +69,12 @@ body{
         color: gray;
         margin: 10px;
     }
-    .push-down{
+    .push-right{
         margin-bottom: 0px;
+        margin-left: 10px;
     }
-    .push-up{
+    .push-right2{
+        margin-left: 12px;
         margin-top: -10px;
     }
     hr{

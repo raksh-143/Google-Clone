@@ -4,6 +4,7 @@ body {
 
 .navigation {
   float: right;
+  font-size: 15px;
 }
 
 .navigation a, .navigation input {
@@ -17,7 +18,13 @@ body {
 
 .navigation input {
   outline: none;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
+}
+
+.navigation .glyphicon-th {
+  background-color: white;
+  border: none;
+  font-size: 20px;
 }
 
 .logo-searchBar {
@@ -32,8 +39,8 @@ body {
 .logo-searchBar input {
   width: 600px;
   height: 40px;
-  border: 1px solid gray;
   border-radius: 75px;
+  border: 1px solid gray;
   outline: none;
 }
 
@@ -49,6 +56,10 @@ body {
   color: blue;
 }
 
+.buttons-lang p {
+  margin-bottom: 200px;
+}
+
 .float-end {
   float: right;
 }
@@ -58,6 +69,7 @@ body {
 }
 
 .footer {
+  font-size: 16px;
   overflow: hidden;
   color: gray;
   background-color: #f2f2f2;
@@ -71,11 +83,13 @@ body {
   margin: 10px;
 }
 
-.footer .push-down {
+.footer .push-right {
   margin-bottom: 0px;
+  margin-left: 10px;
 }
 
-.footer .push-up {
+.footer .push-right2 {
+  margin-left: 12px;
   margin-top: -10px;
 }
 
